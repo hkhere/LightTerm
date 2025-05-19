@@ -129,7 +129,6 @@ class _HomePageState extends State<HomePage>
         height: kBottomNavigationBarHeight * 1.1,
         animationDuration: const Duration(milliseconds: 250),
         onDestinationSelected: _onDestinationSelected,
-        labelBehavior: NavigationDestinationLabelBehavior.onlyShowSelected,
         destinations: AppTab.navDestinations,
       ),
     );
